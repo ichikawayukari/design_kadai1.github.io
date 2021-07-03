@@ -1,0 +1,104 @@
+body{
+  background-color: aqua;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*header*/
+
+.header_menu ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header img{
+  width: 120px;
+}
+
+.header_title{
+  display: flex;
+}
+
+.header_title p{
+  font-size: 20px;
+}
+
+.header_title .phone{
+  text-align: right;
+}
+
+/*main*/
+
+.main img {
+  max-width: 100%;
+}
+
+.content_title{
+  text-align: center;
+}
+
+/*コンテンツ1*/
+.content_list ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/*コンテンツ2*/
+.mimi_music{
+  display: flex;
+}
+
+.jiburi_music{
+  display: flex;
+}
+
+.youtube iframe{
+  width: 300px;
+  height: 150px;
+  margin-left: auto;
+}
+
+/*コンテンツ3*/
+.food img{
+  float:left;
+}
+
+/*新着情報*/
+.news_list ul{
+  list-style: none;
+  text-align: center;
+}
+
+/*アクセス*/
+#location{
+  padding: 4% 0;
+}
+
+#location .wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/*お問い合わせ*/
+.contact {
+  padding-top: 100px;
+  text-align: center;
+}
+
+/*footer*/
+.footer{
+  display: flex;
+}
+.footer img{
+  width: 120px;
+}
+
+.footer_menu ul{
+  list-style: none;
+  display: flex;
+}
